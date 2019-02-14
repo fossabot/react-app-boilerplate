@@ -1,6 +1,7 @@
 # A React boilerplate
 
-![](https://img.shields.io/david/arnavyash/react-boilerplate.svg?style=flat-square)
+![David](https://img.shields.io/david/arnavyash/react-boilerplate.svg?style=flat-square)
+![Codecov](https://img.shields.io/codecov/c/github/arnavyash/react-app-boilerplate?logo=codecov&style=flat-square)
 
 This is a boilerplate project for React. Its features are:
 
