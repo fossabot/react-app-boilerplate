@@ -50,12 +50,10 @@
   },
   "lint-staged": {
     "**/{.[^.],}*.{js,jsx}": [
-      "npm run lint:staged",
-      "git add"
+      "npm run lint:staged"
     ],
     "**/{.[^.],}*.{html,md,mdx,yml,yaml,json,css,scss,less}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "devDependencies": {
