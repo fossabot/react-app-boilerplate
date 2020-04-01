@@ -1,5 +1,6 @@
 {
-  "extends": ["config:base", "schedule:weekly", ":prConcurrentLimitNone"],
+  "extends": ["config:base", "schedule:weekly", "group:monorepo"],
+  "automergeType": "branch",
   "automerge": true,
   "rebaseStalePrs": true
 }
