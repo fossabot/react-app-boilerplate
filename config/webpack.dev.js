@@ -23,7 +23,7 @@
  */
 
 const ESLintFormatterPretty = require('eslint-formatter-pretty');
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const commonConfig = require('./webpack.common');
 
 const config = {
@@ -46,4 +46,4 @@ const config = {
   },
 };
 
-module.exports = merge.smart(commonConfig, config);
+module.exports = merge(commonConfig, config);

@@ -22,11 +22,11 @@
  * SOFTWARE.
  */
 
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const commonConfig = require('./webpack.common');
 
 const config = {
   mode: 'production',
 };
 
-module.exports = merge.smart(commonConfig, config);
+module.exports = merge(commonConfig, config);
