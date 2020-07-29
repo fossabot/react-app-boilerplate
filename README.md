@@ -1,6 +1,7 @@
 # A React boilerplate
 
-![David](https://img.shields.io/david/arnavyash/react-boilerplate.svg?style=flat-square)
+![GitHub](https://img.shields.io/github/license/arnavyash/react-app-boilerplate?style=flat-square)
+![David](https://img.shields.io/david/arnavyash/react-app-boilerplate?style=flat-square)
 ![Codecov](https://img.shields.io/codecov/c/github/arnavyash/react-app-boilerplate?logo=codecov&style=flat-square)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/arnavyash/react-app-boilerplate/Run%20tests?logo=github&style=flat-square)
 
