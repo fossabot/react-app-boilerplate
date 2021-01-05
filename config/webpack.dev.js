@@ -23,24 +23,13 @@
  */
 
 const ESLintFormatterPretty = require('eslint-formatter-pretty');
+const ESLintPlugin = require('eslint-webpack-plugin');
 const { merge } = require('webpack-merge');
 const commonConfig = require('./webpack.common');
 
 const config = {
   mode: 'development',
-  module: {
-    rules: [
-      {
-        enforce: 'pre',
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader',
-        options: {
-          formatter: ESLintFormatterPretty,
-        },
-      },
-    ],
-  },
+  plugins: [new ESLintPlugin({ formatter: ESLintFormatterPretty })],
   devServer: {
     quiet: true,
   },
